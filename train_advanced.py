@@ -124,14 +124,6 @@ def expirement_run(ecg_path, rr2_path, output_path, patient=None,):
     pipeline_tools.run(params)
 
 
-def is_int(str):
-    try:
-        int(str)
-        return True
-    except ValueError:
-        return False
-
-
 def main():
     # path_ecg=f"/large/datasets/holter/ecg/{patient}.ecg"
     # path_rr2= f"/large/datasets/holter/rr2/{patient}.rr2"
